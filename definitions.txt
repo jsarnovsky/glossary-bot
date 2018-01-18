@@ -109,3 +109,6 @@
 /dod-define dd 1412 = Inventory of Articles Shipped in House Trailer
 /dod-define dd form 1863 = Accessorial Services – Mobile Homes
 /dod-define dd 1863 = Accessorial Services – Mobile Homes
+/dod-define pia = privacy impact assessment
+/dod-define phi = protected health information
+/dod-define pii = personally identifiable information
