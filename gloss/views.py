@@ -18,8 +18,8 @@ SEARCH_CMDS = ("search",)
 
 ALIAS_KEYWORDS = ("see also", "see")
 
-BOT_NAME = "Gloss Bot"
-BOT_EMOJI = ":lipstick:"
+BOT_NAME = "DoD Glossary Bot"
+BOT_EMOJI = ":book:"
 
 '''
 values posted by Slack:
@@ -221,6 +221,7 @@ def get_matches_for_term(term):
     '''
     # strip pattern-matching metacharacters from the term
     stripped_term = sub(r'\||_|%|\*|\+|\?|\{|\}|\(|\)|\[|\]', '', term)
+    stripped_term = stripped_term.lower()
     # get ILIKE matches for the term
     # in SQL: SELECT term FROM definitions WHERE term ILIKE '%{}%'.format(stripped_term);
     like_matches = Definition.query.filter(Definition.term.ilike("%{}%".format(stripped_term)))
