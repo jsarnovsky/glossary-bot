@@ -18,7 +18,7 @@ SEARCH_CMDS = ("search",)
 
 ALIAS_KEYWORDS = ("see also", "see")
 
-BOT_NAME = "DoD Glossary Bot"
+BOT_NAME = "Define Bot"
 BOT_EMOJI = ":book:"
 
 '''
