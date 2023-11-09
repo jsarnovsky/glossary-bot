@@ -1,7 +1,8 @@
 {
   "name": "Glossary Bot",
   "description": "A Slack bot that maintains a glossary of terms created by its users.",
-  "repository": "https://github.com/codeforamerica/glossary-bot",
+  "repository": "https://github.com/jsarnovsky/glossary-bot",
+  "stack": "heroku-20",
   "keywords": [
     "slack",
     "glossary",
