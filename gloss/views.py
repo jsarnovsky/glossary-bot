@@ -2,7 +2,6 @@ from flask import abort, current_app, request
 from . import gloss as app
 from . import db
 from .models import Definition, Interaction
-from markupsafe import Markup 
 from sqlalchemy import func, distinct, sql
 from re import compile, match, search, sub, UNICODE
 from requests import post
