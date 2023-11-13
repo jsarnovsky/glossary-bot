@@ -1,4 +1,4 @@
-Flask==0.12.3
+Flask==1.0.2
 Flask-Migrate==2.0.3
 Flask-SQLAlchemy==2.2
 Flask-Script==2.0.5
@@ -7,5 +7,3 @@ psycopg2-binary==2.8.5
 requests==2.13.0
 responses==0.5.1
 Werkzeug==2.2.2
-Jinja2==3.1.1
-MarkupSafe==2.1.1
