@@ -1,5 +1,6 @@
 from flask import Blueprint, Flask
 from flask_sqlalchemy import SQLAlchemy
+from flask_script._compat import text_type
 import re
 
 gloss = Blueprint('gloss', __name__)
